@@ -35,7 +35,7 @@ dependencies {
 publishing {
     publications {
         jar(MavenPublication) {
-            groupId 'academy.newtech'
+            groupId 'peelmicro'
             artifactId 'gs-gradle'
             version '1.0'
             from components.java
@@ -56,7 +56,7 @@ buildscript {
 }
 
 allprojects {
-    apply plugin: "com.jfrog.artifactory"
+    apply plugin: "com.peelmicro.artifactory"
 }
 
 artifactory {
