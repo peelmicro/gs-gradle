@@ -56,7 +56,7 @@ buildscript {
 }
 
 allprojects {
-    apply plugin: "com.peelmicro.artifactory"
+    apply plugin: "com.jfrog.artifactory"
 }
 
 artifactory {
